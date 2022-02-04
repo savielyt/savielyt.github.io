@@ -8,10 +8,11 @@
     margin-left:auto;
     padding: 1px;
     text-align: center;
-    background-color: 	#E9FFF9;
+   background: no-repeat linear-gradient(#9ED8DB,white);
 }
 body{
-	background-color: 	#9ED8DB;
+	background-color: #ABBFE7;
+    
 }
 
 .dot {
@@ -34,17 +35,29 @@ h2{
 
 .box{
 	background-color: #467599;
-    width: 250px;
-    height: 300px;
+    width: 800px;
+    height: 150px;
     color: white;
 }
 .box-2{
 	background-color: #467599;
-    width: 250px;
-    height: 300px;
+    width: 800px;
+    height: 150px;
+    color: white;
+}
+.box-3{
+	background-color: #467599;
+    width: 800px;
+    height: 150px;
     color: white;
 }
 
 .container{
-display: flex;
+  display: flex;
+  margin: auto;
+  width: 60%; 
+  padding: 10px;
   }
+button{
+	 font-size:11px;
+}
